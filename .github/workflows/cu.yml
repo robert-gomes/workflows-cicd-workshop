@@ -5,7 +5,7 @@ jobs:
  build:
    name: test
    # This job runs on Linux
-   runs-on: debian-latest
+   runs-on: linux
    env:
      IMAGE_NAME: node-test
      IMAGE_TAG: latest
